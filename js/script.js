@@ -111,4 +111,8 @@ form.addEventListener("submit", (e) => {
   if (validDay() === true && validMonth() === true && validYear() === true) {
     calculateAge();
   }
+
+  dayInput.value = "";
+  monthInput.value = "";
+  yearInput.value = "";
 });
